@@ -26,6 +26,9 @@ public class Triangulo {
     //pvsm
     public static void main(String[] args) {
         Triangulo t1 = new Triangulo();
-        t1.tipoTriangulo(5,6,6);
+        int lado1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el lado 1"));
+        int lado2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el lado 2"));
+        int lado3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el lado 3"));
+        t1.tipoTriangulo(lado1,lado2,lado3);
     }
 }
